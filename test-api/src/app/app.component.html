@@ -1,0 +1,9 @@
+<div class="container" *ngIf="data">
+  <div class="data-container">
+    <div class="card" *ngFor="let item of data">
+      <img [src]="item.image">
+      <h1>{{ item.name }}</h1>
+      <p>color : {{item.color}}</p>
+    </div>
+  </div>
+</div>

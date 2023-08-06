@@ -1,0 +1,14 @@
+.data-container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin: 20px;
+}
+img{
+    max-width: 200px;
+    object-fit:cover;
+    max-height: 100px;
+    width:200px
+
+}
